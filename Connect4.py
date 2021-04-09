@@ -30,4 +30,4 @@ class Connect4:
             self.game_fin = 1
             return f'Player {int((not self.player)) + 1} wins!'
         return f'Player {int((not self.player)) + 1} has a turn'
-
+    
