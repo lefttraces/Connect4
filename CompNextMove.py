@@ -42,7 +42,6 @@ class ConnectN:
         if not self._game_fin:
             if self._game_mode == 1 and self._player_names[self._player] == 'Computer':
                 import random
-                # random.seed(2)
                 available_columns = [i+1 for i in range(len(self._grid)) if int(len(self._grid[i]) / self._rows) == 0]
 
                 for col in available_columns:
