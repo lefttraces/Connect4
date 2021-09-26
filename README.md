@@ -4,3 +4,4 @@ The aim is to teach computer how to optimally play ConnectN on an arbitrarily la
 I aim to implement this using two different methods and compare the results by pitting the two versions against each other:
 (1) Computer learns by playing against itself
 (2) Computer learns by watching
+(3) Use knn to teach
